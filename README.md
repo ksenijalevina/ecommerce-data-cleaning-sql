@@ -14,4 +14,4 @@ The main goal of this project is to learn how to clean and prepare data for anal
 
 ## Current status
 Work in progress
-This project is not finished yet - I am still testing queries and impoving the logic
+This project is not finished yet - I am still testing queries and impoving the logic.
