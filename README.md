@@ -1,17 +1,21 @@
-# E-commerce sales Data Cleaning (SQL)
+# E-commerce sales Data Cleaning with SQL
 
 ## About the project
-This project is a part of my learning process in SQL and data analysis.
-I am currently working on it and improving step by step.
+This project focused on cleaning a messy e_commerce sales dataset using SQL.
 
-The main goal of this project is to learn how to clean and prepare data for analysis using SQL.
+## Tools used
+- MySQL
+- CASE statements
+- String functions
+- Data type convertsion
 
-## What I am doing in my project:
-- exploring raw data
-- removing duplicates/ null values/ blank values
-- standardize the Data
-- working with SQL functions
+## Cleaning steps
+- Created a backup table
+- Removed duplicates
+- Standardized dates
+- Calculated discount
+- Recalculated total
 
-## Current status
-Work in progress
-This project is not finished yet - I am still testing queries and impoving the logic.
+## Assumptions
+
+- Rows where `price = 0` and `discount` is `NULL` or `0` were treated as potential free transactions.
